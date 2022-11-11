@@ -8,7 +8,7 @@ function Hero() {
         <h1>At Your Doorstep</h1>
         <p>save more with coupons & upto 70% off</p>
 
-        <button><a href="#product1"> Shop Now </a></button>
+        <button><a href=""> Shop Now </a></button>
     </section>
   )
 }

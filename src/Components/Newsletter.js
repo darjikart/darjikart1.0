@@ -8,8 +8,10 @@ function Newsletter() {
         <p>Get E-mail updates about our latest shop and <span>special offers.</span> </p>
     </div>
     <div className="form">
-        <input type="text" placeholder="Your email address"/>
+        <form action='https://formspree.io/f/xpzkokzz' method='post'><br/>
+        <input type="text" name="email" placeholder="Your email address"/>
         <button className="normal">Sign Up</button>
+        </form>
     </div>
 </section>
   )
