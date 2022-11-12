@@ -11,6 +11,34 @@ const orderSchema = new mongoose.Schema({
 
         type: String,
         require: true,
+    },
+    pId:{
+        type: String,
+        require: true,
+    },
+    houseadd:{
+        type: String,
+        require: true,
+    },
+    city:{
+        type: String,
+        require: true,
+    },
+    state:{
+        type: String,
+        require: true,
+    },
+    pin:{
+        type: String,
+        require: true,
+    },
+    phone:{
+        type: String,
+        require: true,
+    },
+    email:{
+        type: String,
+        require: true,
     }
 });
 
