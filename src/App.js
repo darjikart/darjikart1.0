@@ -1,11 +1,7 @@
 
 import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
-import Card from './Components/Card'
 import Newsletter from './Components/Newsletter';
 import Footer from './Components/Footer';
-import FormalAPI from './API/Formal';
-import tshirts from './API/T-Shirts';
 
 import Home from './Components/Home';
 import Shop from './Components/Shop';
@@ -16,6 +12,8 @@ import Error from './Components/Error404';
 import {BrowserRouter, Route , Routes} from 'react-router-dom';
 
 import './App.css';
+
+import Order from './Components/Order';
 
 function App() {
   return (
@@ -28,6 +26,7 @@ function App() {
             <Route path='/shop' element={<Shop />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/order' element={<Order />} />
             <Route path="*" element={<Error />} />
         </Routes>
     </BrowserRouter>
