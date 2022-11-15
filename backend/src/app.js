@@ -12,11 +12,13 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(order);
 
-
-
-app.get('/place-order', (req, res) => {
+app.get('/', (req, res) => {
     res.send("welcome to home page ")
 })
+
+// app.get('/place-order', (req, res) => {
+//     res.send("welcome to place order page ")
+// })
 
 app.listen(8000,() => {
     console.log(`Listing to port: http://${process.env.HOST_NAME}:${process.env.HOST_PORT_NUMBER}`);

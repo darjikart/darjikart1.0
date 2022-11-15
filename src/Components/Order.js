@@ -10,7 +10,7 @@ function Order() {
       <h2>Product Order Form</h2>
   </div>
   <div className="d-flex">
-  <form action="http://192.168.1.9:8000/place-order" method="post">
+  <form action="/place-order" method="post">
     <label>
       <span className="fname">First Name <span className="required">*</span></span>
       <input type="text" name="fname"/>
